@@ -46,5 +46,7 @@ class Student
   end
 
   def update
+    sql = <<-SQL
+    "UPDATE students SET name = ? WHERE grade = ?"
   end
 end
