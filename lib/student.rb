@@ -63,7 +63,7 @@ class Student
   id = row[0]
   name =  row[1]
   grade = row[2]
-  self.new(name, grade, id = nil)
+  Student.new(name, grade, id = nil)
 end
 
 end
